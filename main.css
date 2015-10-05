@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*****************************
+Colours
+main background: #222;
+content background:#444;
+footer background: #333;
+borders on header and main: #666;
+main text: #d4d4d4;
+header text: #eee;
+footer text: #999;
+anchor text: gold;
+anchor hover: #fff;
+text shadows - #000 (bottom right) and gold (top left)
+
+Fonts
+'Helvetica Neue', Calibri, Verdana, sans-serif;
+
+Images
+http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
+******************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #222;
+}
+html, body{
+    font-size: 3vh; /* default font-size = 1.0rem */
+    background-color: #444;
+    color: #d4d4d4;
+    
+}
+h1{
+    font-family: "Verdana";
+    font-size: 72px;
+    border: #666;
+    text-shadow: 0px 0px 4px 3px #000, 9px 8px 0px gold;
+    font-family: sans-serif;
+    background-image:url(saturn.v1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height:420px;
+    width: 900px;
+    
+}
+h3{
+  font-family: Calibri;
+  color: #eee;
+}
+p{
+    font-family: Verdana;
+}
+nav a, nav a:link, nav a:visited{
+    color:gold;
+
+}
+nav a:hover, nav a:active{
+    color: #fff;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}  
+nav li{
+   display: inline;
+}
+#wrapper{ 
+
+}
+#masthead{
+   
+}
+#main{
+    border: #666;
+
+}
+#footer{
+    background-color: #333;
+    color: #999;
+
+}
+#footer p{
+    background-color: #333;
+    font-color: #999;
+
+}
+#footer a{
+
+}
