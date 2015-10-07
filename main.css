@@ -1,57 +1,47 @@
 @charset "utf-8";
-/*****************************
-Colours
-main background: #222;
-content background:#444;
-footer background: #333;
-borders on header and main: #666;
-main text: #d4d4d4;
-header text: #eee;
-footer text: #999;
-anchor text: gold;
-anchor hover: #fff;
-text shadows - #000 (bottom right) and gold (top left)
 
-Fonts
-'Helvetica Neue', Calibri, Verdana, sans-serif;
-
-Images
-http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
-******************************/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #222;
 }
 html, body{
-    font-size: 3vh; /* default font-size = 1.0rem */
-    background-color: #444;
+    font-size: 18px; 
+    background-color: #222;
     color: #d4d4d4;
-    
+    padding: 0px 40px;
 }
 h1{
-    font-family: "Verdana";
-    font-size: 72px;
-    border: #666;
+    font-family: Helvetica Neue, Calbri, Verdana, sans-serif;
+    border: 2px solid #666;
     text-shadow: 0px 0px 4px 3px #000, 9px 8px 0px gold;
-    font-family: sans-serif;
-    background-image:url(saturn.v1.jpg);
+    background-image:url(http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    height:420px;
+    height: 300px;
     width: 900px;
+    padding-top: 90px
     
 }
 h3{
-  font-family: Calibri;
+  font-family: Helvetica Neue, Calbri, Verdana, sans-serif;
   color: #eee;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: #444;
 }
 p{
-    font-family: Verdana;
+    font-family: Helvetica Neue, Calbri, Verdana, sans-serif;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    background-color:#444;
+    padding-left: 10px;
 }
 nav a, nav a:link, nav a:visited{
     color:gold;
+    text-decoration: none;
+    background-color: #444;
 
 }
 nav a:hover, nav a:active{
@@ -61,31 +51,56 @@ nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
+    font-family: Helvetica Neue, Calbri, Verdana, sans-serif;
+    border: 6px solid grey;
+    text-align: center;
+    background-color: #444;
 }  
 nav li{
-   display: inline;
+   display: inline-block;
+   text-decoration: none;
+    font-size: 23px;
+    padding: 20px;
+    background-color: #444;
 }
 #wrapper{ 
-
+    width: 85%;
+    margin: 0 auto;
+    max-width: 900px;
 }
 #masthead{
+    text-shadow: -2px -2px 2px gold, 2px 2px 2px #000;
+    color: #eee;
+    font-size: 45px;
+    text-align: center;
    
 }
 #main{
-    border: #666;
+    border: 2px solid #666;
+    color: #d4d4d4;
+    padding-top: 0px;
+    padding-left: 0px;
+    background-color: #444;
 
 }
 #footer{
     background-color: #333;
     color: #999;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    padding-left: 17px;
 
 }
 #footer p{
+    font-family: Helvetica Neue, Calbri, Verdana, sans-serif;
     background-color: #333;
     font-color: #999;
 
 }
 #footer a{
+    font-family: Helvetica Neue, Calbri, Verdana, sans-serif;
+    font-color: gold;
+    color: gold;
+    background-color: #333;
 
 }
